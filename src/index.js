@@ -13,11 +13,12 @@ import ConfirmButtonClass from './chapter08/ConfirmButtonClass';
 import ConfirmButtonFunction from './chapter08/ConfirmButtonFunction';
 import LandingPage from './chapter09/LandingPage';
 import AttendanceBook from './chapter10/AttendanceBook';
+import SignUp from './chapter11/SignUp';
 
 const rootNode = document.getElementById('root');
 ReactDOM.createRoot(rootNode).render(
   <React.StrictMode>
-    <AttendanceBook />
+    <SignUp />
   </React.StrictMode>,
 );
 
