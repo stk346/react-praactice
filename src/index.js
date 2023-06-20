@@ -9,14 +9,33 @@ import Clock from './chapter04/Clock';
 import CommentList from './chapter05/CommentList';
 import NotificationList from './chapter06/NotificationList';
 import Accommodate from './chapter07/Accommodate';
+import ConfirmButtonClass from './chapter08/ConfirmButtonClass';
+import ConfirmButtonFunction from './chapter08/ConfirmButtonFunction';
 
 const rootNode = document.getElementById('root');
-
 ReactDOM.createRoot(rootNode).render(
   <React.StrictMode>
-    <Accommodate />
+    <ConfirmButtonFunction />
   </React.StrictMode>,
 );
+
+
+
+// const rootNode = document.getElementById('root');
+
+// ReactDOM.createRoot(rootNode).render(
+//   <React.StrictMode>
+//     <ConfirmButtonClass />
+//   </React.StrictMode>,
+// );
+
+// const rootNode = document.getElementById('root');
+
+// ReactDOM.createRoot(rootNode).render(
+//   <React.StrictMode>
+//     <Accommodate />
+//   </React.StrictMode>,
+// );
 
 // const rootNode = document.getElementById('root');
 
