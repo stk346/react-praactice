@@ -11,13 +11,22 @@ import NotificationList from './chapter06/NotificationList';
 import Accommodate from './chapter07/Accommodate';
 import ConfirmButtonClass from './chapter08/ConfirmButtonClass';
 import ConfirmButtonFunction from './chapter08/ConfirmButtonFunction';
+import LandingPage from './chapter09/LandingPage';
 
 const rootNode = document.getElementById('root');
 ReactDOM.createRoot(rootNode).render(
   <React.StrictMode>
-    <ConfirmButtonFunction />
+    <LandingPage />
   </React.StrictMode>,
 );
+
+
+// const rootNode = document.getElementById('root');
+// ReactDOM.createRoot(rootNode).render(
+//   <React.StrictMode>
+//     <ConfirmButtonFunction />
+//   </React.StrictMode>,
+// );
 
 
 
